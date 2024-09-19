@@ -64,12 +64,12 @@ Make.com pozwala na automatyzację zadań w prosty, wizualny sposób.
 
    <img src="./img/shortcut_edit.png" alt="Edytowanie skrótu" style="height: 200px;">
 
-4. Znajdź piąty kafelek zawierający "Pobierz zawartość paste/link/from/make.com" (PL).
+4. Znajdź piąty kafelek zawierający "Pobierz zawartość paste/link/from/make.com".
 5. Usuń fragment `paste/link/from/make.com`, a następnie wklej link webhooka skopiowany wcześniej z Make.com, zaczynający się od `https://hook.eu2.make.com/(..)`.
    
    <img src="./img/shortcut_geturl.png" alt="Pobierz zawartość URL" style="height: 350px;">
 
-6. Aby dodać skrót do ekranu głównego, kliknij ikonę udostępniania i wybierz opcję `Do ekranu początkowego` (PL).
+6. Aby dodać skrót do ekranu głównego, kliknij ikonę udostępniania i wybierz opcję `Do ekranu początkowego`.
 
    <img src="./img/shortcut_publish.png" alt="Publikowanie skrótu" style="height: 100px;">
 
