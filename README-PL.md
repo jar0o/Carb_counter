@@ -12,7 +12,7 @@ W tym celu użyjemy rozwiązania Foodvisor.io, które analizuje zdjęcia i dosta
 2. Przejdź do zakładki `Dashboard`.
 3. Utwórz nowy klucz API (`Create Key`), nadaj mu dowolną nazwę i kliknij `Validate`.
 4. Skopiuj wygenerowany klucz API – będzie widoczny tylko raz, więc zachowaj go w bezpiecznym miejscu.
-![Foodvisor](./img/foodvisor.png)
+   ![Foodvisor](./img/foodvisor.png)
 
 
 ## 2. Tworzenie scenariusza automatyzacji w Make.com
@@ -31,18 +31,28 @@ Make.com pozwala na automatyzację zadań w prosty, wizualny sposób.
 
    ![Scenariusz Make](./img/make_scenario.png)
 
-### 3. Konfiguracja scenariusza w Make.com
+## 3. Konfiguracja scenariusza w Make.com
 
 1. Kliknij pierwszy element o nazwie `Webhooks - Custom Webhook`.
 2. Kliknij `Create a webhook` i nadaj mu dowolną nazwę, następnie zapisz (`save`).
-3. Skopiuj wygenerowany link webhooka (zaczyna się od `https://hook.eu2.make.com/ucbpnswwbffw3bauhs2g69c...`) do notatnika – przyda się później.
+
+   Powinien pojawić się link jak na grafice poniżej, zaczynający się od `https://hook.eu2.make.com/`:
+
+   ![Webhook in Make](./img/make_webhook.png)
+
+3. Skopiuj wygenerowany link webhooka do notatnika – przyda się później.
 4. Kliknij na drugi element scenariusza, czyli `HTTP - Make a request`.
 5. W polu `Api-Key <token>`, zamień `<token>` na klucz API wygenerowany w Foodvisor.io.
+
+   ![API Key in Make](./img/make_http_token.png)
+
+6. Po zakończeniu konfiguracji kliknij `Save`, aby zapisać scenariusz.
 
 ### 4. Ustawienia aktywacji scenariusza
 
 1. Aby scenariusz działał na bieżąco, w lewym dolnym rogu włącz opcję `ON`.
 2. Wybierz opcję `Immediately as data arrives`.
+   ![Make_Schedule](./img/make_schedule.png)
 
 ### 5. Dodanie skrótu iOS
 
