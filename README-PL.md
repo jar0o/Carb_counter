@@ -12,16 +12,24 @@ W tym celu użyjemy rozwiązania Foodvisor.io, które analizuje zdjęcia i dosta
 2. Przejdź do zakładki `Dashboard`.
 3. Utwórz nowy klucz API (`Create Key`), nadaj mu dowolną nazwę i kliknij `Validate`.
 4. Skopiuj wygenerowany klucz API – będzie widoczny tylko raz, więc zachowaj go w bezpiecznym miejscu.
+![Foodvisor](./img/foodvisor.png)
 
-### 2. Tworzenie scenariusza automatyzacji w Make.com
+
+## 2. Tworzenie scenariusza automatyzacji w Make.com
 
 Make.com pozwala na automatyzację zadań w prosty, wizualny sposób.
 
 1. Załóż konto na [Make.com](https://www.make.com) i zaloguj się.
-2. Pobierz plan scenariusza (blueprint) z tego repozytorium.
+2. Pobierz plan scenariusza (blueprint): [carb_counter_blueprint_make.json](./carb_counter_blueprint_make.json).
 3. Po zalogowaniu kliknij `+ create scenario`.
 4. W dolnym rogu strony znajdź przycisk z trzema kropkami i wybierz opcję `Import blueprint`.
-5. Wskaż plik `carb_counter_blueprint.json`, aby zaimportować gotowy scenariusz.
+
+   ![Import blueprint in Make](./img/make_import.png)
+
+5. Wskaż plik `carb_counter_blueprint_make.json`, aby zaimportować gotowy scenariusz.
+6. Na końcu kliknij `Save`. Scenariusz powinien zostać zaimportowany jak na grafice poniżej:
+
+   ![Scenariusz Make](./img/make_scenario.png)
 
 ### 3. Konfiguracja scenariusza w Make.com
 
